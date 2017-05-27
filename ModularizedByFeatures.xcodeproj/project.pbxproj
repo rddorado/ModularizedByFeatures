@@ -15,27 +15,13 @@
 		D12FB2731ED2828200BCD96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12FB2711ED2828200BCD96B /* LaunchScreen.storyboard */; };
 		D12FB27E1ED2828200BCD96B /* ModularizedByFeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB27D1ED2828200BCD96B /* ModularizedByFeaturesTests.swift */; };
 		D12FB2891ED2828300BCD96B /* ModularizedByFeaturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2881ED2828300BCD96B /* ModularizedByFeaturesUITests.swift */; };
-		D12FB2A41ED2859200BCD96B /* CatDetailAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB29A1ED2859200BCD96B /* CatDetailAdapter.swift */; };
-		D12FB2A61ED2859200BCD96B /* CatDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB29C1ED2859200BCD96B /* CatDetailRouter.swift */; };
-		D12FB2A71ED2859200BCD96B /* CatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB29D1ED2859200BCD96B /* CatDetailViewController.swift */; };
-		D12FB2A81ED2859200BCD96B /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB29F1ED2859200BCD96B /* Cat.swift */; };
-		D12FB2A91ED2859200BCD96B /* CatsListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2A01ED2859200BCD96B /* CatsListAdapter.swift */; };
-		D12FB2AB1ED2859200BCD96B /* CatsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2A21ED2859200BCD96B /* CatsListRouter.swift */; };
-		D12FB2AC1ED2859200BCD96B /* CatsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2A31ED2859200BCD96B /* CatsListViewController.swift */; };
-		D12FB2B91ED2859900BCD96B /* DogDetailAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2AF1ED2859900BCD96B /* DogDetailAdapter.swift */; };
-		D12FB2BB1ED2859900BCD96B /* DogDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B11ED2859900BCD96B /* DogDetailRouter.swift */; };
-		D12FB2BC1ED2859900BCD96B /* DogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B21ED2859900BCD96B /* DogDetailViewController.swift */; };
-		D12FB2BD1ED2859900BCD96B /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B41ED2859900BCD96B /* Dog.swift */; };
-		D12FB2BE1ED2859900BCD96B /* DogListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B51ED2859900BCD96B /* DogListAdapter.swift */; };
-		D12FB2C01ED2859900BCD96B /* DogsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B71ED2859900BCD96B /* DogsListRouter.swift */; };
-		D12FB2C11ED2859900BCD96B /* DogsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2B81ED2859900BCD96B /* DogsListViewController.swift */; };
 		D12FB2D01ED84A5E00BCD96B /* HomeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */; };
 		D12FB2D11ED84A5E00BCD96B /* HomeFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */; };
 		D12FB2D21ED84A5E00BCD96B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */; };
 		D12FB2D41ED84E0500BCD96B /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D31ED84E0500BCD96B /* MainRouter.swift */; };
-		D12FB2D61ED84EB700BCD96B /* DogFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D51ED84EB700BCD96B /* DogFeatureRouter.swift */; };
-		D12FB2D81ED84F3200BCD96B /* CatsFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D71ED84F3200BCD96B /* CatsFeatureRouter.swift */; };
-		D12FB3571ED957FE00BCD96B /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12FB3561ED957FE00BCD96B /* Context.framework */; };
+		D14217341ED99BDF0008D6DE /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14217331ED99BDF0008D6DE /* Context.framework */; };
+		D14217861ED9A1730008D6DE /* CatFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14217851ED9A1730008D6DE /* CatFeature.framework */; };
+		D19FC04E1ED9AE4F001C9B55 /* DogFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19FC04D1ED9AE4F001C9B55 /* DogFeature.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,27 +61,15 @@
 		D12FB2841ED2828300BCD96B /* ModularizedByFeaturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularizedByFeaturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12FB2881ED2828300BCD96B /* ModularizedByFeaturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularizedByFeaturesUITests.swift; sourceTree = "<group>"; };
 		D12FB28A1ED2828300BCD96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D12FB29A1ED2859200BCD96B /* CatDetailAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatDetailAdapter.swift; sourceTree = "<group>"; };
-		D12FB29C1ED2859200BCD96B /* CatDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatDetailRouter.swift; sourceTree = "<group>"; };
-		D12FB29D1ED2859200BCD96B /* CatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatDetailViewController.swift; sourceTree = "<group>"; };
-		D12FB29F1ED2859200BCD96B /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
-		D12FB2A01ED2859200BCD96B /* CatsListAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsListAdapter.swift; sourceTree = "<group>"; };
-		D12FB2A21ED2859200BCD96B /* CatsListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsListRouter.swift; sourceTree = "<group>"; };
-		D12FB2A31ED2859200BCD96B /* CatsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsListViewController.swift; sourceTree = "<group>"; };
-		D12FB2AF1ED2859900BCD96B /* DogDetailAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailAdapter.swift; sourceTree = "<group>"; };
-		D12FB2B11ED2859900BCD96B /* DogDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailRouter.swift; sourceTree = "<group>"; };
-		D12FB2B21ED2859900BCD96B /* DogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailViewController.swift; sourceTree = "<group>"; };
-		D12FB2B41ED2859900BCD96B /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
-		D12FB2B51ED2859900BCD96B /* DogListAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogListAdapter.swift; sourceTree = "<group>"; };
-		D12FB2B71ED2859900BCD96B /* DogsListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsListRouter.swift; sourceTree = "<group>"; };
-		D12FB2B81ED2859900BCD96B /* DogsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsListViewController.swift; sourceTree = "<group>"; };
 		D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdapter.swift; sourceTree = "<group>"; };
 		D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeatureRouter.swift; sourceTree = "<group>"; };
 		D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D12FB2D31ED84E0500BCD96B /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
-		D12FB2D51ED84EB700BCD96B /* DogFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeatureRouter.swift; sourceTree = "<group>"; };
-		D12FB2D71ED84F3200BCD96B /* CatsFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsFeatureRouter.swift; sourceTree = "<group>"; };
 		D12FB3561ED957FE00BCD96B /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
+		D14217331ED99BDF0008D6DE /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "DerivedData/ModularizedByFeatures/Build/Products/Debug-iphonesimulator/Context.framework"; sourceTree = "<group>"; };
+		D14217831ED9A1070008D6DE /* CatFeature.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CatFeature.framework; path = "CatFeature/build/Debug-iphoneos/CatFeature.framework"; sourceTree = "<group>"; };
+		D14217851ED9A1730008D6DE /* CatFeature.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CatFeature.framework; path = "CatFeature/build/Debug-iphoneos/CatFeature.framework"; sourceTree = "<group>"; };
+		D19FC04D1ED9AE4F001C9B55 /* DogFeature.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DogFeature.framework; path = "DerivedData/ModularizedByFeatures/Build/Products/Debug-iphoneos/DogFeature.framework"; sourceTree = "<group>"; };
 		D800F53A145B166444A2319D /* Pods-ModularizedByFeaturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularizedByFeaturesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularizedByFeaturesTests/Pods-ModularizedByFeaturesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12FB3571ED957FE00BCD96B /* Context.framework in Frameworks */,
+				D19FC04E1ED9AE4F001C9B55 /* DogFeature.framework in Frameworks */,
+				D14217861ED9A1730008D6DE /* CatFeature.framework in Frameworks */,
+				D14217341ED99BDF0008D6DE /* Context.framework in Frameworks */,
 				4B62695E07443BA94E669B07 /* Pods_ModularizedByFeatures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +120,10 @@
 		A1D042F70768CF57D0CCF9AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D19FC04D1ED9AE4F001C9B55 /* DogFeature.framework */,
+				D14217851ED9A1730008D6DE /* CatFeature.framework */,
+				D14217831ED9A1070008D6DE /* CatFeature.framework */,
+				D14217331ED99BDF0008D6DE /* Context.framework */,
 				D12FB3561ED957FE00BCD96B /* Context.framework */,
 				2DBE5569B65BDC1255FE66FB /* Pods_ModularizedByFeatures.framework */,
 				833A267DE1CF885B523D560B /* Pods_ModularizedByFeaturesTests.framework */,
@@ -177,8 +157,6 @@
 		D12FB2651ED2828200BCD96B /* ModularizedByFeatures */ = {
 			isa = PBXGroup;
 			children = (
-				D12FB2981ED2859200BCD96B /* Cat Feature */,
-				D12FB2AD1ED2859900BCD96B /* Dog Feature */,
 				D12FB2CC1ED8489D00BCD96B /* Home Feature */,
 				D12FB2661ED2828200BCD96B /* AppDelegate.swift */,
 				D12FB26F1ED2828200BCD96B /* Assets.xcassets */,
@@ -207,68 +185,6 @@
 			path = ModularizedByFeaturesUITests;
 			sourceTree = "<group>";
 		};
-		D12FB2981ED2859200BCD96B /* Cat Feature */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2991ED2859200BCD96B /* Cat Detail */,
-				D12FB29E1ED2859200BCD96B /* Cats List */,
-				D12FB2E21ED86D9300BCD96B /* Model */,
-				D12FB2D71ED84F3200BCD96B /* CatsFeatureRouter.swift */,
-			);
-			path = "Cat Feature";
-			sourceTree = "<group>";
-		};
-		D12FB2991ED2859200BCD96B /* Cat Detail */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB29A1ED2859200BCD96B /* CatDetailAdapter.swift */,
-				D12FB29C1ED2859200BCD96B /* CatDetailRouter.swift */,
-				D12FB29D1ED2859200BCD96B /* CatDetailViewController.swift */,
-			);
-			path = "Cat Detail";
-			sourceTree = "<group>";
-		};
-		D12FB29E1ED2859200BCD96B /* Cats List */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2A01ED2859200BCD96B /* CatsListAdapter.swift */,
-				D12FB2A21ED2859200BCD96B /* CatsListRouter.swift */,
-				D12FB2A31ED2859200BCD96B /* CatsListViewController.swift */,
-			);
-			path = "Cats List";
-			sourceTree = "<group>";
-		};
-		D12FB2AD1ED2859900BCD96B /* Dog Feature */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2AE1ED2859900BCD96B /* Dog Detail */,
-				D12FB2B31ED2859900BCD96B /* Dogs List */,
-				D12FB2D91ED860A000BCD96B /* Model */,
-				D12FB2DA1ED860AE00BCD96B /* Router */,
-			);
-			path = "Dog Feature";
-			sourceTree = "<group>";
-		};
-		D12FB2AE1ED2859900BCD96B /* Dog Detail */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2AF1ED2859900BCD96B /* DogDetailAdapter.swift */,
-				D12FB2B11ED2859900BCD96B /* DogDetailRouter.swift */,
-				D12FB2B21ED2859900BCD96B /* DogDetailViewController.swift */,
-			);
-			path = "Dog Detail";
-			sourceTree = "<group>";
-		};
-		D12FB2B31ED2859900BCD96B /* Dogs List */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2B51ED2859900BCD96B /* DogListAdapter.swift */,
-				D12FB2B71ED2859900BCD96B /* DogsListRouter.swift */,
-				D12FB2B81ED2859900BCD96B /* DogsListViewController.swift */,
-			);
-			path = "Dogs List";
-			sourceTree = "<group>";
-		};
 		D12FB2CC1ED8489D00BCD96B /* Home Feature */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,30 +192,6 @@
 				D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */,
 			);
 			path = "Home Feature";
-			sourceTree = "<group>";
-		};
-		D12FB2D91ED860A000BCD96B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2B41ED2859900BCD96B /* Dog.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D12FB2DA1ED860AE00BCD96B /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2D51ED84EB700BCD96B /* DogFeatureRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		D12FB2E21ED86D9300BCD96B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB29F1ED2859200BCD96B /* Cat.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D12FB2E31ED87B4000BCD96B /* Home */ = {
@@ -594,25 +486,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12FB2BC1ED2859900BCD96B /* DogDetailViewController.swift in Sources */,
-				D12FB2BB1ED2859900BCD96B /* DogDetailRouter.swift in Sources */,
-				D12FB2BE1ED2859900BCD96B /* DogListAdapter.swift in Sources */,
-				D12FB2A61ED2859200BCD96B /* CatDetailRouter.swift in Sources */,
-				D12FB2D81ED84F3200BCD96B /* CatsFeatureRouter.swift in Sources */,
-				D12FB2C11ED2859900BCD96B /* DogsListViewController.swift in Sources */,
 				D12FB2D21ED84A5E00BCD96B /* HomeViewController.swift in Sources */,
-				D12FB2D61ED84EB700BCD96B /* DogFeatureRouter.swift in Sources */,
-				D12FB2A81ED2859200BCD96B /* Cat.swift in Sources */,
-				D12FB2A41ED2859200BCD96B /* CatDetailAdapter.swift in Sources */,
-				D12FB2C01ED2859900BCD96B /* DogsListRouter.swift in Sources */,
-				D12FB2AB1ED2859200BCD96B /* CatsListRouter.swift in Sources */,
-				D12FB2B91ED2859900BCD96B /* DogDetailAdapter.swift in Sources */,
-				D12FB2A71ED2859200BCD96B /* CatDetailViewController.swift in Sources */,
-				D12FB2A91ED2859200BCD96B /* CatsListAdapter.swift in Sources */,
 				D12FB2671ED2828200BCD96B /* AppDelegate.swift in Sources */,
 				D12FB2D11ED84A5E00BCD96B /* HomeFeatureRouter.swift in Sources */,
-				D12FB2AC1ED2859200BCD96B /* CatsListViewController.swift in Sources */,
-				D12FB2BD1ED2859900BCD96B /* Dog.swift in Sources */,
 				D12FB2D01ED84A5E00BCD96B /* HomeAdapter.swift in Sources */,
 				D12FB2D41ED84E0500BCD96B /* MainRouter.swift in Sources */,
 			);
@@ -766,6 +642,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/ModularizedByFeatures/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/CatFeature/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/ModularizedByFeatures/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ModularizedByFeatures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -784,6 +663,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/ModularizedByFeatures/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/CatFeature/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/DerivedData/ModularizedByFeatures/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ModularizedByFeatures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

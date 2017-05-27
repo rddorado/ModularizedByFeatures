@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Context.xcscheme</key>
+		<key>DogFeature.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D12FB3351ED9576F00BCD96B</key>
+		<key>D19FC0191ED9AB55001C9B55</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D12FB33E1ED9576F00BCD96B</key>
+		<key>D19FC0221ED9AB55001C9B55</key>
 		<dict>
 			<key>primary</key>
 			<true/>

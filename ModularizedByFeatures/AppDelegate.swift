@@ -6,15 +6,14 @@ enum Tab: Int {
     func getViewController(with mainRouter: MainRouter) -> UIViewController {
         switch self {
         case .home:
-            return mainRouter.homeFeatureRouter.homeViewController
+            return mainRouter.homeFeatureRouter.getMainScreen()
         case .cats:
-            return mainRouter.catFeatureRouter.catsListRouter.catsListViewController
+            return mainRouter.catFeatureRouter.getMainScreen()
         case .dogs:
-            return mainRouter.dogFeatureRouter.dogsListRouter.dogsListViewController
+            return mainRouter.dogFeatureRouter.getMainScreen()
         }
     }
 }
-
 
 @UIApplicationMain
 

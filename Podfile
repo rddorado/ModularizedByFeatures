@@ -12,8 +12,21 @@ def testing_pods
 end
 
 target 'ModularizedByFeatures' do
+xcodeproj 'ModularizedByFeatures'
     swift_pods
 end
+
+target 'CatFeature' do
+xcodeproj 'CatFeature/CatFeature'
+inherit! :search_paths
+  swift_pods
+ end
+
+target 'DogFeature' do
+xcodeproj 'DogFeature/DogFeature'
+inherit! :search_paths
+  swift_pods
+ end
 
 target 'ModularizedByFeaturesTests' do
     swift_pods
@@ -23,6 +36,9 @@ end
 target 'ModularizedByFeaturesUITests' do
     testing_pods
 end
+
+workspace 'ModularizedByFeatures.xcworkspace'
+
 
 
 

@@ -3,8 +3,12 @@ import UIKit
 class HomeFeatureRouter {
     lazy var homeViewController:HomeViewController = HomeViewController(router: self)
   
-    init(){
+    public init(){
         
+    }
+    
+    public func getMainScreen() -> UIViewController {
+        return homeViewController
     }
     
     @objc func showDogsList() {

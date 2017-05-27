@@ -1,4 +1,5 @@
 import UIKit
+import SnapKit
 
 class CatDetailViewController: UIViewController, CatDetailViewPort {
     let imageView = UIImageView()

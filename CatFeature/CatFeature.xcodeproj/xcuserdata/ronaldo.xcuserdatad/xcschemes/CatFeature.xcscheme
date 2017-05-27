@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D12FB3351ED9576F00BCD96B"
-               BuildableName = "Context.framework"
-               BlueprintName = "Context"
-               ReferencedContainer = "container:Context.xcodeproj">
+               BlueprintIdentifier = "D142173E1ED99FB00008D6DE"
+               BuildableName = "CatFeature.framework"
+               BlueprintName = "CatFeature"
+               ReferencedContainer = "container:CatFeature.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D12FB33E1ED9576F00BCD96B"
-               BuildableName = "ContextTests.xctest"
-               BlueprintName = "ContextTests"
-               ReferencedContainer = "container:Context.xcodeproj">
+               BlueprintIdentifier = "D14217471ED99FB00008D6DE"
+               BuildableName = "CatFeatureTests.xctest"
+               BlueprintName = "CatFeatureTests"
+               ReferencedContainer = "container:CatFeature.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D12FB2621ED2828200BCD96B"
-            BuildableName = "ModularizedByFeatures.app"
-            BlueprintName = "ModularizedByFeatures"
-            ReferencedContainer = "container:../ModularizedByFeatures.xcodeproj">
+            BlueprintIdentifier = "D142173E1ED99FB00008D6DE"
+            BuildableName = "CatFeature.framework"
+            BlueprintName = "CatFeature"
+            ReferencedContainer = "container:CatFeature.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,6 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D142173E1ED99FB00008D6DE"
+            BuildableName = "CatFeature.framework"
+            BlueprintName = "CatFeature"
+            ReferencedContainer = "container:CatFeature.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -73,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D12FB3351ED9576F00BCD96B"
-            BuildableName = "Context.framework"
-            BlueprintName = "Context"
-            ReferencedContainer = "container:Context.xcodeproj">
+            BlueprintIdentifier = "D142173E1ED99FB00008D6DE"
+            BuildableName = "CatFeature.framework"
+            BlueprintName = "CatFeature"
+            ReferencedContainer = "container:CatFeature.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
