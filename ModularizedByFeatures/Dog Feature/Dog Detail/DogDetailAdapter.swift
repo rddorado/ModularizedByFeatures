@@ -1,4 +1,5 @@
 import Foundation
+import Context
 
 protocol DogDetailViewPort: class {
     func showDogImage(index: Int)

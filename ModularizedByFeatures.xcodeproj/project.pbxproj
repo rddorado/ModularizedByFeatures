@@ -35,8 +35,7 @@
 		D12FB2D41ED84E0500BCD96B /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D31ED84E0500BCD96B /* MainRouter.swift */; };
 		D12FB2D61ED84EB700BCD96B /* DogFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D51ED84EB700BCD96B /* DogFeatureRouter.swift */; };
 		D12FB2D81ED84F3200BCD96B /* CatsFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D71ED84F3200BCD96B /* CatsFeatureRouter.swift */; };
-		D12FB2DE1ED862E900BCD96B /* ContextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2DD1ED862E900BCD96B /* ContextFactory.swift */; };
-		D12FB2E01ED8641100BCD96B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2DF1ED8641100BCD96B /* Services.swift */; };
+		D12FB3571ED957FE00BCD96B /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12FB3561ED957FE00BCD96B /* Context.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +95,7 @@
 		D12FB2D31ED84E0500BCD96B /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		D12FB2D51ED84EB700BCD96B /* DogFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeatureRouter.swift; sourceTree = "<group>"; };
 		D12FB2D71ED84F3200BCD96B /* CatsFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsFeatureRouter.swift; sourceTree = "<group>"; };
-		D12FB2DD1ED862E900BCD96B /* ContextFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextFactory.swift; sourceTree = "<group>"; };
-		D12FB2DF1ED8641100BCD96B /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D12FB3561ED957FE00BCD96B /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
 		D800F53A145B166444A2319D /* Pods-ModularizedByFeaturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularizedByFeaturesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularizedByFeaturesTests/Pods-ModularizedByFeaturesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12FB3571ED957FE00BCD96B /* Context.framework in Frameworks */,
 				4B62695E07443BA94E669B07 /* Pods_ModularizedByFeatures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +144,7 @@
 		A1D042F70768CF57D0CCF9AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D12FB3561ED957FE00BCD96B /* Context.framework */,
 				2DBE5569B65BDC1255FE66FB /* Pods_ModularizedByFeatures.framework */,
 				833A267DE1CF885B523D560B /* Pods_ModularizedByFeaturesTests.framework */,
 				063DBF9569C7263E3F0C006D /* Pods_ModularizedByFeaturesUITests.framework */,
@@ -178,10 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				D12FB2981ED2859200BCD96B /* Cat Feature */,
-				D12FB2DC1ED862D600BCD96B /* Context */,
 				D12FB2AD1ED2859900BCD96B /* Dog Feature */,
 				D12FB2CC1ED8489D00BCD96B /* Home Feature */,
-				D12FB2E11ED8641800BCD96B /* Services */,
 				D12FB2661ED2828200BCD96B /* AppDelegate.swift */,
 				D12FB26F1ED2828200BCD96B /* Assets.xcassets */,
 				D12FB2741ED2828200BCD96B /* Info.plist */,
@@ -277,7 +275,6 @@
 				D12FB2E31ED87B4000BCD96B /* Home */,
 				D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */,
 			);
-			name = "Home Feature";
 			path = "Home Feature";
 			sourceTree = "<group>";
 		};
@@ -297,22 +294,6 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		D12FB2DC1ED862D600BCD96B /* Context */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2DD1ED862E900BCD96B /* ContextFactory.swift */,
-			);
-			path = Context;
-			sourceTree = "<group>";
-		};
-		D12FB2E11ED8641800BCD96B /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2DF1ED8641100BCD96B /* Services.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		D12FB2E21ED86D9300BCD96B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,7 +308,6 @@
 				D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */,
 				D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */,
 			);
-			name = Home;
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -623,10 +603,8 @@
 				D12FB2D21ED84A5E00BCD96B /* HomeViewController.swift in Sources */,
 				D12FB2D61ED84EB700BCD96B /* DogFeatureRouter.swift in Sources */,
 				D12FB2A81ED2859200BCD96B /* Cat.swift in Sources */,
-				D12FB2E01ED8641100BCD96B /* Services.swift in Sources */,
 				D12FB2A41ED2859200BCD96B /* CatDetailAdapter.swift in Sources */,
 				D12FB2C01ED2859900BCD96B /* DogsListRouter.swift in Sources */,
-				D12FB2DE1ED862E900BCD96B /* ContextFactory.swift in Sources */,
 				D12FB2AB1ED2859200BCD96B /* CatsListRouter.swift in Sources */,
 				D12FB2B91ED2859900BCD96B /* DogDetailAdapter.swift in Sources */,
 				D12FB2A71ED2859200BCD96B /* CatDetailViewController.swift in Sources */,
@@ -785,6 +763,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9B5RH7JKU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ModularizedByFeatures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dorado.ronaldo.allenabled;
@@ -799,6 +781,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9B5RH7JKU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = ModularizedByFeatures/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dorado.ronaldo.allenabled;

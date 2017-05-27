@@ -1,4 +1,5 @@
 import Foundation
+import Context
 
 protocol CatDetailViewPort: class {
     func showCatImage(index: Int)

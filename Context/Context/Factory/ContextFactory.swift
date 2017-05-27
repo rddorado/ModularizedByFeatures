@@ -1,30 +1,30 @@
 import UIKit
 
-protocol DogsListServiceProtocol {
+public protocol DogsListServiceProtocol {
     func getDogsList() -> [String]
 }
 
-protocol DogDetailServiceProtocol {
+public protocol DogDetailServiceProtocol {
     func getDogDetail(name: String) -> String
 }
 
-protocol CatsListServiceProtocol {
+public protocol CatsListServiceProtocol {
     func getCatsList() -> [String]
 }
 
-protocol CatDetailServiceProtocol {
+public protocol CatDetailServiceProtocol {
     func getCatDetail(name: String) -> String
 }
 
-protocol LoginServiceProtocol {
+public protocol LoginServiceProtocol {
     func login()
 }
 
-protocol UserInfoServiceProtocol {
+public protocol UserInfoServiceProtocol {
     func getUsername() -> String
 }
 
-protocol ContextProtocol {
+public protocol ContextProtocol {
     func loginService() -> LoginServiceProtocol
     func userInfoService() -> UserInfoServiceProtocol
     func dogsListService() -> DogsListServiceProtocol
@@ -33,28 +33,32 @@ protocol ContextProtocol {
     func catDetailService() -> CatDetailServiceProtocol
 }
 
-class ContextFactory: ContextProtocol {
-    func loginService() -> LoginServiceProtocol {
+public class ContextFactory: ContextProtocol {
+    public init() {
+        
+    }
+    
+    public func loginService() -> LoginServiceProtocol {
         return LoginService()
     }
     
-    func userInfoService() -> UserInfoServiceProtocol {
+    public func userInfoService() -> UserInfoServiceProtocol {
         return UserInfoService()
     }
     
-    func dogsListService() -> DogsListServiceProtocol {
+    public func dogsListService() -> DogsListServiceProtocol {
         return DogsListService()
     }
     
-    func dogDetailService() -> DogDetailServiceProtocol {
+    public func dogDetailService() -> DogDetailServiceProtocol {
         return DogDetailService()
     }
     
-    func catsListService() -> CatsListServiceProtocol {
+    public func catsListService() -> CatsListServiceProtocol {
         return CatsListService()
     }
     
-    func catDetailService() -> CatDetailServiceProtocol {
+    public func catDetailService() -> CatDetailServiceProtocol {
         return CatDetailService()
     }
 }

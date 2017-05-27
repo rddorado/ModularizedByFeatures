@@ -1,4 +1,5 @@
 import Foundation
+import Context
 
 protocol DogsListViewPort: class {
     func dogsFetched(_ dogs: [Dog])
