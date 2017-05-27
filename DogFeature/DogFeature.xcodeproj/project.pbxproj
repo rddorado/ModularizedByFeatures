@@ -97,9 +97,9 @@
 			children = (
 				D19FC01C1ED9AB55001C9B55 /* DogFeature */,
 				D19FC0271ED9AB55001C9B55 /* DogFeatureTests */,
-				D19FC01B1ED9AB55001C9B55 /* Products */,
-				920137A0A9A7CD72B70B39E9 /* Pods */,
 				258EC839CF15C4E18F7D2F21 /* Frameworks */,
+				920137A0A9A7CD72B70B39E9 /* Pods */,
+				D19FC01B1ED9AB55001C9B55 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				D19FC0341ED9ABD1001C9B55 /* Dog Detail */,
-				D19FC0381ED9ABD1001C9B55 /* DogFeatureRouter.swift */,
 				D19FC0391ED9ABD1001C9B55 /* Dogs List */,
 				D19FC03D1ED9ABD1001C9B55 /* Model */,
 				D19FC01D1ED9AB55001C9B55 /* DogFeature.h */,
+				D19FC0381ED9ABD1001C9B55 /* DogFeatureRouter.swift */,
 				D19FC01E1ED9AB55001C9B55 /* Info.plist */,
 			);
 			path = DogFeature;
@@ -300,7 +300,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-DogFeature/Pods-DogFeature-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/DogFeatureApp/Pods/Target Support Files/Pods-DogFeature/Pods-DogFeature-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
