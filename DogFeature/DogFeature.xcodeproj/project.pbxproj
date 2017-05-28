@@ -20,6 +20,8 @@
 		D19FC0451ED9ABD1001C9B55 /* DogsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC03C1ED9ABD1001C9B55 /* DogsListViewController.swift */; };
 		D19FC0461ED9ABD1001C9B55 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC03E1ED9ABD1001C9B55 /* Dog.swift */; };
 		D19FC04C1ED9ACAE001C9B55 /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19FC04B1ED9ACAE001C9B55 /* Context.framework */; };
+		D19FC0D01EDAFBB0001C9B55 /* DogFeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC0CF1EDAFBB0001C9B55 /* DogFeatureService.swift */; };
+		D19FC0D21EDAFBD8001C9B55 /* DogFeatureContextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC0D11EDAFBD8001C9B55 /* DogFeatureContextFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D19FC03C1ED9ABD1001C9B55 /* DogsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsListViewController.swift; sourceTree = "<group>"; };
 		D19FC03E1ED9ABD1001C9B55 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		D19FC04B1ED9ACAE001C9B55 /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "../Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
+		D19FC0CF1EDAFBB0001C9B55 /* DogFeatureService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeatureService.swift; sourceTree = "<group>"; };
+		D19FC0D11EDAFBD8001C9B55 /* DogFeatureContextFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogFeatureContextFactory.swift; sourceTree = "<group>"; };
 		EF638B2099E8B32C6058F122 /* Pods-DogFeature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogFeature.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-DogFeature/Pods-DogFeature.debug.xcconfig"; sourceTree = "<group>"; };
 		F492C52C480EAED61026B63C /* Pods_DogFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 		D19FC0101ED9AB55001C9B55 = {
 			isa = PBXGroup;
 			children = (
+				D19FC0CC1EDAFB7B001C9B55 /* Context */,
 				D19FC01C1ED9AB55001C9B55 /* DogFeature */,
 				D19FC0271ED9AB55001C9B55 /* DogFeatureTests */,
 				258EC839CF15C4E18F7D2F21 /* Frameworks */,
@@ -160,6 +165,31 @@
 				D19FC03E1ED9ABD1001C9B55 /* Dog.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D19FC0CC1EDAFB7B001C9B55 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0CE1EDAFB92001C9B55 /* Services */,
+				D19FC0CD1EDAFB8A001C9B55 /* Factory */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		D19FC0CD1EDAFB8A001C9B55 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0D11EDAFBD8001C9B55 /* DogFeatureContextFactory.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		D19FC0CE1EDAFB92001C9B55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0CF1EDAFBB0001C9B55 /* DogFeatureService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,11 +342,13 @@
 			files = (
 				D19FC0421ED9ABD1001C9B55 /* DogFeatureRouter.swift in Sources */,
 				D19FC0431ED9ABD1001C9B55 /* DogListAdapter.swift in Sources */,
+				D19FC0D21EDAFBD8001C9B55 /* DogFeatureContextFactory.swift in Sources */,
 				D19FC0401ED9ABD1001C9B55 /* DogDetailRouter.swift in Sources */,
 				D19FC0441ED9ABD1001C9B55 /* DogsListRouter.swift in Sources */,
 				D19FC0411ED9ABD1001C9B55 /* DogDetailViewController.swift in Sources */,
 				D19FC03F1ED9ABD1001C9B55 /* DogDetailAdapter.swift in Sources */,
 				D19FC0461ED9ABD1001C9B55 /* Dog.swift in Sources */,
+				D19FC0D01EDAFBB0001C9B55 /* DogFeatureService.swift in Sources */,
 				D19FC0451ED9ABD1001C9B55 /* DogsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

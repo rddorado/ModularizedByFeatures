@@ -1,5 +1,4 @@
 import Foundation
-import Context
 
 protocol DogDetailViewPort: class {
     func showDogImage(index: Int)
@@ -9,9 +8,9 @@ class DogDetailAdapter {
     weak var viewPort: DogDetailViewPort?
     var dogs = [Dog]()
     var selectedIndex:Int
-    var context: ContextProtocol
+    var context: DogFeatureContextProtocol
     
-    init(dogs:[Dog], selectedIndex: Int, viewPort: DogDetailViewPort, context: ContextProtocol = ContextFactory()) {
+    init(dogs:[Dog], selectedIndex: Int, viewPort: DogDetailViewPort, context: DogFeatureContextProtocol = DogFeatureContextFactory()) {
         self.dogs = dogs
         self.selectedIndex = selectedIndex
         self.viewPort = viewPort

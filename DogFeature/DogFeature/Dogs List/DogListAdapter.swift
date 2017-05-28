@@ -1,5 +1,4 @@
 import Foundation
-import Context
 
 protocol DogsListViewPort: class {
     func dogsFetched(_ dogs: [Dog])
@@ -9,9 +8,9 @@ protocol DogsListViewPort: class {
 class DogsListAdapter {
     
     weak var viewPort: DogsListViewPort?
-    var context: ContextProtocol
+    var context: DogFeatureContextProtocol
     
-    init(viewPort: DogsListViewPort, context: ContextProtocol = ContextFactory()) {
+    init(viewPort: DogsListViewPort, context: DogFeatureContextProtocol = DogFeatureContextFactory()) {
         self.viewPort = viewPort
         self.context = context
     }

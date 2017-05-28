@@ -1,12 +1,5 @@
 import UIKit
 
-public protocol DogsListServiceProtocol {
-    func getDogsList() -> [String]
-}
-
-public protocol DogDetailServiceProtocol {
-    func getDogDetail(name: String) -> String
-}
 
 public protocol CatsListServiceProtocol {
     func getCatsList() -> [String]
@@ -27,13 +20,11 @@ public protocol UserInfoServiceProtocol {
 public protocol ContextProtocol {
     func loginService() -> LoginServiceProtocol
     func userInfoService() -> UserInfoServiceProtocol
-    func dogsListService() -> DogsListServiceProtocol
-    func dogDetailService() -> DogDetailServiceProtocol
     func catsListService() -> CatsListServiceProtocol
     func catDetailService() -> CatDetailServiceProtocol
 }
 
-public class ContextFactory: ContextProtocol {
+open class ContextFactory: ContextProtocol {
     public init() {
         
     }
@@ -44,14 +35,6 @@ public class ContextFactory: ContextProtocol {
     
     public func userInfoService() -> UserInfoServiceProtocol {
         return UserInfoService()
-    }
-    
-    public func dogsListService() -> DogsListServiceProtocol {
-        return DogsListService()
-    }
-    
-    public func dogDetailService() -> DogDetailServiceProtocol {
-        return DogDetailService()
     }
     
     public func catsListService() -> CatsListServiceProtocol {
