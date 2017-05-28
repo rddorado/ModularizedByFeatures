@@ -1,5 +1,4 @@
 import Foundation
-import Context
 
 protocol CatDetailViewPort: class {
     func showCatImage(index: Int)
@@ -9,9 +8,9 @@ class CatDetailAdapter {
     weak var viewPort: CatDetailViewPort?
     var cats = [Cat]()
     var selectedIndex:Int
-    var context: ContextProtocol
+    var context: CatFeatureContextProtocol
     
-    init(cats:[Cat], selectedIndex: Int, viewPort: CatDetailViewPort, context: ContextProtocol = ContextFactory()) {
+    init(cats:[Cat], selectedIndex: Int, viewPort: CatDetailViewPort, context: CatFeatureContextProtocol = CatFeatureContextFactory()) {
         self.cats = cats
         self.selectedIndex = selectedIndex
         self.viewPort = viewPort

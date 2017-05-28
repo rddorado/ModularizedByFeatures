@@ -9,9 +9,9 @@ protocol CatsListViewPort: class {
 class CatsListAdapter {
     
     weak var viewPort: CatsListViewPort?
-    var context: ContextProtocol
+    var context: CatFeatureContextProtocol
     
-    init(viewPort: CatsListViewPort, context: ContextProtocol = ContextFactory()) {
+    init(viewPort: CatsListViewPort, context: CatFeatureContextProtocol = CatFeatureContextFactory()) {
         self.viewPort = viewPort
         self.context = context
     }

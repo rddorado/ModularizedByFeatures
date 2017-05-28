@@ -20,6 +20,8 @@
 		D14217821ED9A0B80008D6DE /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14217781ED9A0B80008D6DE /* Cat.swift */; };
 		D14217891ED9A1F70008D6DE /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14217881ED9A1F70008D6DE /* SnapKit.framework */; };
 		D19FC04A1ED9ACA9001C9B55 /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19FC0491ED9ACA9001C9B55 /* Context.framework */; };
+		D19FC0D71EDAFE09001C9B55 /* CatFeatureContextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC0D61EDAFE09001C9B55 /* CatFeatureContextFactory.swift */; };
+		D19FC0D91EDAFE9D001C9B55 /* CatFeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC0D81EDAFE9D001C9B55 /* CatFeatureService.swift */; };
 		F1B020FA524920B5167B7596 /* Pods_CatFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70945E0043522652E7D35236 /* Pods_CatFeature.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		D14217881ED9A1F70008D6DE /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../DerivedData/ModularizedByFeatures/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		D19FC0471ED9AC9D001C9B55 /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "../Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
 		D19FC0491ED9ACA9001C9B55 /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "../Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
+		D19FC0D61EDAFE09001C9B55 /* CatFeatureContextFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatFeatureContextFactory.swift; sourceTree = "<group>"; };
+		D19FC0D81EDAFE9D001C9B55 /* CatFeatureService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatFeatureService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +96,9 @@
 			children = (
 				D14217411ED99FB00008D6DE /* CatFeature */,
 				D142174C1ED99FB00008D6DE /* CatFeatureTests */,
-				D14217401ED99FB00008D6DE /* Products */,
 				D14217871ED9A1F70008D6DE /* Frameworks */,
 				AF9B946205995A27ADE7794B /* Pods */,
+				D14217401ED99FB00008D6DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +116,10 @@
 			children = (
 				D142176C1ED9A0B80008D6DE /* Cat Detail */,
 				D14217711ED9A0B80008D6DE /* Cats List */,
-				D14217761ED9A0B80008D6DE /* CatsFeatureRouter.swift */,
+				D19FC0D31EDAFDD3001C9B55 /* Context */,
 				D14217771ED9A0B80008D6DE /* Model */,
 				D14217421ED99FB00008D6DE /* CatFeature.h */,
+				D14217761ED9A0B80008D6DE /* CatsFeatureRouter.swift */,
 				D14217431ED99FB00008D6DE /* Info.plist */,
 			);
 			path = CatFeature;
@@ -166,6 +171,34 @@
 				70945E0043522652E7D35236 /* Pods_CatFeature.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D19FC0D31EDAFDD3001C9B55 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0D41EDAFDE8001C9B55 /* Factory */,
+				D19FC0D51EDAFDF0001C9B55 /* Services */,
+			);
+			name = Context;
+			path = Context;
+			sourceTree = "<group>";
+		};
+		D19FC0D41EDAFDE8001C9B55 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0D61EDAFE09001C9B55 /* CatFeatureContextFactory.swift */,
+			);
+			name = Factory;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		D19FC0D51EDAFDF0001C9B55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D19FC0D81EDAFE9D001C9B55 /* CatFeatureService.swift */,
+			);
+			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19FC0D71EDAFE09001C9B55 /* CatFeatureContextFactory.swift in Sources */,
 				D142177D1ED9A0B80008D6DE /* CatsListAdapter.swift in Sources */,
 				D142177F1ED9A0B80008D6DE /* CatsListRouter.swift in Sources */,
 				D14217821ED9A0B80008D6DE /* Cat.swift in Sources */,
@@ -324,6 +358,7 @@
 				D142177C1ED9A0B80008D6DE /* CatDetailViewController.swift in Sources */,
 				D14217811ED9A0B80008D6DE /* CatsFeatureRouter.swift in Sources */,
 				D14217791ED9A0B80008D6DE /* CatDetailAdapter.swift in Sources */,
+				D19FC0D91EDAFE9D001C9B55 /* CatFeatureService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
