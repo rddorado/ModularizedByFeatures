@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'DogFeature_Example' do
+  pod 'DogFeature', :path => '../'
+  pod 'Context', :path => '../../Context' 
+
+  target 'DogFeature_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

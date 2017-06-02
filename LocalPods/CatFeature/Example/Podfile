@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CatFeature_Example' do
+  pod 'CatFeature', :path => '../'
+  pod 'Context', :path => '../../Context' 
+
+  target 'CatFeature_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
