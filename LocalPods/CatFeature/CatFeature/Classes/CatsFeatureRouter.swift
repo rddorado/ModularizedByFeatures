@@ -8,6 +8,6 @@ public class CatFeatureRouter {
     }
     
     public func getMainScreen() -> UIViewController {
-        return catsListRouter.catsListViewController
+        return catsListRouter.getCatListViewController()
     }
 }

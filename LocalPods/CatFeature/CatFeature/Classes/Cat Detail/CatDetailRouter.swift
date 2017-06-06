@@ -1,24 +1,31 @@
 import UIKit
 
 @objc class CatDetailRouter: NSObject {
-    var catDetailViewController: CatDetailViewController?
+    weak var catDetailViewController: CatDetailViewController?
+    let presentModally = false
     
     func showCatDetailViewController(from sourceViewController: UIViewController, cats: [Cat], selectedIndex: Int) {
-        catDetailViewController = CatDetailViewController(cats: cats, selectedIndex: selectedIndex, router: self)
-//        
-//        let navigation = UINavigationController(rootViewController:catDetailViewController!)
-//        let buttonItem = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(CatDetailRouter.exitCatDetailViewControler))
-//        catDetailViewController?.navigationItem.leftBarButtonItem = buttonItem
-//        
- //       sourceViewController.present(navigation, animated: true, completion: nil)
         
-        sourceViewController.navigationController?.pushViewController(catDetailViewController!, animated: true)
+        let vc = CatDetailViewController(cats: cats, selectedIndex: selectedIndex, router: self)
+        let buttonItem = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(CatDetailRouter.exitCatDetailViewControler))
+        vc.navigationItem.leftBarButtonItem = buttonItem
+        let navigation = UINavigationController(rootViewController:vc)
+        
+        if presentModally {
+            sourceViewController.present(navigation, animated: true, completion: nil)
+        } else {
+            sourceViewController.navigationController?.pushViewController(vc, animated: true)
+            
+        }
+        catDetailViewController = vc
     }
     
     @objc func exitCatDetailViewControler() {
-       // catDetailViewController?.dismiss(animated: true, completion: nil)
-        catDetailViewController?.navigationController?.popViewController(animated: true)
-        catDetailViewController = nil
+        if presentModally {
+            catDetailViewController?.dismiss(animated: true, completion: nil)
+        } else {
+            catDetailViewController?.navigationController?.popViewController(animated: true)
+        }
     }
 }
 

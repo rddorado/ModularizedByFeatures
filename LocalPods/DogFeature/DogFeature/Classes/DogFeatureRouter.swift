@@ -8,7 +8,7 @@ public class DogFeatureRouter {
     }
     
     public func getMainScreen() -> UIViewController {
-        return dogsListRouter.dogsListViewController
+        return dogsListRouter.getDogListViewController()
     }
     
 }
