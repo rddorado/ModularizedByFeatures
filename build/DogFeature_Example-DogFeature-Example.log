@@ -1,0 +1,244 @@
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature
+
+=== BUILD TARGET Context OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET SnapKit OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET DogFeature-DogFeature OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET FBSnapshotTestCase OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-DogFeature_Tests OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET DogFeature OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-DogFeature_Example OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET DogFeature_Example OF PROJECT DogFeature WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0A39EB64682BB9A825453BC9.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0A39EB64682BB9A825453BC9.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-8055ABDEDBFB05DAE3402337.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-8055ABDEDBFB05DAE3402337.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/Context/Context.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+Context.framework/
+Context.framework/Context
+Context.framework/_CodeSignature/CodeResources
+
+sent 66160 bytes  received 70 bytes  132460.00 bytes/sec
+total size is 66624  speedup is 1.01
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework: replacing existing signature
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature/DogFeature.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+DogFeature.framework/
+DogFeature.framework/DogFeature
+DogFeature.framework/_CodeSignature/CodeResources
+
+sent 255587 bytes  received 70 bytes  511314.00 bytes/sec
+total size is 389881  speedup is 1.53
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework: replacing existing signature
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+SnapKit.framework/
+SnapKit.framework/SnapKit
+SnapKit.framework/_CodeSignature/CodeResources
+
+sent 446704 bytes  received 70 bytes  893548.00 bytes/sec
+total size is 447120  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0C48211A350EE42F5F7CD23E.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0C48211A350EE42F5F7CD23E.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+=== BUILD TARGET DogFeature_Tests OF PROJECT DogFeature WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-B18E97565C5C976EDD6F6485.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-B18E97565C5C976EDD6F6485.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-A658E16842E87CB4EFA905A0.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-A658E16842E87CB4EFA905A0.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/FBSnapshotTestCase/FBSnapshotTestCase.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks"
+building file list ... done
+FBSnapshotTestCase.framework/
+FBSnapshotTestCase.framework/FBSnapshotTestCase
+FBSnapshotTestCase.framework/_CodeSignature/CodeResources
+
+sent 130930 bytes  received 70 bytes  87333.33 bytes/sec
+total size is 131411  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-2F3189D602DC818F01B889C6.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-2F3189D602DC818F01B889C6.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+** BUILD SUCCEEDED **
+
+=== BUILD TARGET Context OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET SnapKit OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET FBSnapshotTestCase OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET DogFeature-DogFeature OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET DogFeature OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-DogFeature_Tests OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-DogFeature_Example OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET DogFeature_Example OF PROJECT DogFeature WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0A39EB64682BB9A825453BC9.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0A39EB64682BB9A825453BC9.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-8055ABDEDBFB05DAE3402337.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-8055ABDEDBFB05DAE3402337.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context/Context.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+Context.framework/
+Context.framework/Context
+Context.framework/_CodeSignature/CodeResources
+
+sent 100796 bytes  received 70 bytes  201732.00 bytes/sec
+total size is 101264  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/Context.framework: replacing existing signature
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature/DogFeature.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+DogFeature.framework/
+DogFeature.framework/DogFeature
+DogFeature.framework/_CodeSignature/CodeResources
+
+sent 302767 bytes  received 70 bytes  201891.33 bytes/sec
+total size is 437065  speedup is 1.44
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/DogFeature.framework: replacing existing signature
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks"
+building file list ... done
+SnapKit.framework/
+SnapKit.framework/SnapKit
+SnapKit.framework/_CodeSignature/CodeResources
+
+sent 633124 bytes  received 70 bytes  1266388.00 bytes/sec
+total size is 633520  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Example.app/Frameworks/SnapKit.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0C48211A350EE42F5F7CD23E.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Example.build/Script-0C48211A350EE42F5F7CD23E.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+=== BUILD TARGET DogFeature_Tests OF PROJECT DogFeature WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-B18E97565C5C976EDD6F6485.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-B18E97565C5C976EDD6F6485.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-A658E16842E87CB4EFA905A0.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-A658E16842E87CB4EFA905A0.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FBSnapshotTestCase/FBSnapshotTestCase.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks"
+building file list ... done
+FBSnapshotTestCase.framework/
+FBSnapshotTestCase.framework/FBSnapshotTestCase
+FBSnapshotTestCase.framework/_CodeSignature/CodeResources
+
+sent 172578 bytes  received 70 bytes  345296.00 bytes/sec
+total size is 173059  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/DogFeature_Tests.xctest/Frameworks/FBSnapshotTestCase.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-2F3189D602DC818F01B889C6.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/DerivedData/DogFeature/Build/Intermediates/CodeCoverage/Intermediates/DogFeature.build/Debug-iphonesimulator/DogFeature_Tests.build/Script-2F3189D602DC818F01B889C6.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+Test Suite 'All tests' started at 2017-06-12 01:21:39.855
+Test Suite 'FBSnapshotTestCase.framework' started at 2017-06-12 01:21:39.856
+Test Suite 'FBSnapshotTestCase.framework' passed at 2017-06-12 01:21:39.856.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'DogFeature_Tests.xctest' started at 2017-06-12 01:21:39.857
+Test Suite 'Tests' started at 2017-06-12 01:21:39.858
+Test Case '-[DogFeature_Tests.Tests testExample]' started.
+Test Case '-[DogFeature_Tests.Tests testExample]' passed (0.003 seconds).
+Test Case '-[DogFeature_Tests.Tests testPerformanceExample]' started.
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/DogFeature/Example/Tests/Tests.swift:26: Test Case '-[DogFeature_Tests.Tests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 131.844%, values: [0.000005, 0.000001, 0.000001, 0.000001, 0.000000, 0.000001, 0.000000, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[DogFeature_Tests.Tests testPerformanceExample]' passed (0.296 seconds).
+Test Suite 'Tests' passed at 2017-06-12 01:21:40.159.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.299 (0.301) seconds
+Test Suite 'DogFeature_Tests.xctest' passed at 2017-06-12 01:21:40.159.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.299 (0.302) seconds
+Test Suite 'All tests' passed at 2017-06-12 01:21:40.160.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.299 (0.305) seconds
+** TEST SUCCEEDED **
+

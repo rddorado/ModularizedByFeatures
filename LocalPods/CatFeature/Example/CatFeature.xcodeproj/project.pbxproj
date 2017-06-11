@@ -31,7 +31,7 @@
 		0AEE6838F52FCF5BFB044748 /* Pods_CatFeature_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatFeature_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAED43AD761868F9379E48A /* Pods-CatFeature_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFeature_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatFeature_Example/Pods-CatFeature_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D25843F5AC12110B9D9006A /* Pods-CatFeature_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFeature_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatFeature_Example/Pods-CatFeature_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		28FA35B63343FB5FCAF48FB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28FA35B63343FB5FCAF48FB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33EA4CADB26630FF318E42BF /* Pods-CatFeature_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFeature_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatFeature_Tests/Pods-CatFeature_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CatFeature_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFeature_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACE51AFB9204008FA782 /* CatFeature_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFeature_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63B80583B2A710A0537BBBED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63B80583B2A710A0537BBBED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6CB4E17266F42B27FF8FB35B /* Pods-CatFeature_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFeature_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatFeature_Tests/Pods-CatFeature_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		76D89F6653FB6B2521A82121 /* CatFeature.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CatFeature.podspec; path = ../CatFeature.podspec; sourceTree = "<group>"; };
+		76D89F6653FB6B2521A82121 /* CatFeature.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CatFeature.podspec; path = ../CatFeature.podspec; sourceTree = "<group>"; };
 		893E731F3D1968794BFAE589 /* Pods_CatFeature_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatFeature_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -216,6 +216,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -496,11 +497,13 @@
 			baseConfigurationReference = 1D25843F5AC12110B9D9006A /* Pods-CatFeature_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CatFeature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -510,11 +513,13 @@
 			baseConfigurationReference = 0FAED43AD761868F9379E48A /* Pods-CatFeature_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CatFeature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

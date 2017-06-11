@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ModularizedByFeaturesTests.xctest' tests='3' failures='0'>
+  <testsuite name='ModularizedByFeaturesUITests.ModularizedByFeaturesUITests' tests='1' failures='0'>
+    <testcase classname='ModularizedByFeaturesUITests.ModularizedByFeaturesUITests' name='testExample' time='10.019'/>
+  </testsuite>
+  <testsuite name='ModularizedByFeaturesTests.ModularizedByFeaturesTests' tests='2' failures='0'>
+    <testcase classname='ModularizedByFeaturesTests.ModularizedByFeaturesTests' name='testExample' time='0.002'/>
+    <testcase classname='ModularizedByFeaturesTests.ModularizedByFeaturesTests' name='testPerformanceExample' time='0.377'/>
+  </testsuite>
+</testsuites>

@@ -280,8 +280,7 @@
 				TargetAttributes = {
 					D12FB2621ED2828200BCD96B = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = L9B5RH7JKU;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					D12FB2781ED2828200BCD96B = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -638,7 +637,7 @@
 			baseConfigurationReference = BE2847FB5D1166EA7E235AD4 /* Pods-ModularizedByFeatures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L9B5RH7JKU;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
@@ -650,6 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dorado.ronaldo.allenabled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -659,7 +659,7 @@
 			baseConfigurationReference = A8FAEA91CD4608C7084EF191 /* Pods-ModularizedByFeatures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L9B5RH7JKU;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Context/build/Debug-iphoneos",
@@ -671,6 +671,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dorado.ronaldo.allenabled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

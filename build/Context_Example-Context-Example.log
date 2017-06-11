@@ -1,0 +1,181 @@
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context
+
+=== BUILD TARGET FBSnapshotTestCase OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Context OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-Context_Example OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Context_Example OF PROJECT Context WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-86A170214C5F76DC9304D8C5.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-86A170214C5F76DC9304D8C5.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-C648595DAF813FD46C68EA89.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-C648595DAF813FD46C68EA89.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Example.app/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context/Context.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Example.app/Frameworks"
+building file list ... done
+Context.framework/
+Context.framework/Context
+Context.framework/_CodeSignature/CodeResources
+
+sent 66128 bytes  received 70 bytes  132396.00 bytes/sec
+total size is 66592  speedup is 1.01
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-9C93DAC9906440CE2F5E34D4.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-9C93DAC9906440CE2F5E34D4.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+=== BUILD TARGET Pods-Context_Tests OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Context_Tests OF PROJECT Context WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5B33A41D5A966F7D4C7A9C75.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5B33A41D5A966F7D4C7A9C75.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-676975DE090CE0D023CC6BB0.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-676975DE090CE0D023CC6BB0.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/FBSnapshotTestCase/FBSnapshotTestCase.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks"
+building file list ... done
+FBSnapshotTestCase.framework/
+FBSnapshotTestCase.framework/FBSnapshotTestCase
+FBSnapshotTestCase.framework/_CodeSignature/CodeResources
+
+sent 130850 bytes  received 70 bytes  261840.00 bytes/sec
+total size is 131331  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5826D41E2BED4FD52FF3ECEE.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5826D41E2BED4FD52FF3ECEE.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+** BUILD SUCCEEDED **
+
+=== BUILD TARGET Context OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET FBSnapshotTestCase OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-Context_Example OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Context_Example OF PROJECT Context WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-86A170214C5F76DC9304D8C5.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-86A170214C5F76DC9304D8C5.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-C648595DAF813FD46C68EA89.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-C648595DAF813FD46C68EA89.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Example.app/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context/Context.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Example.app/Frameworks"
+building file list ... done
+Context.framework/
+Context.framework/Context
+Context.framework/_CodeSignature/CodeResources
+
+sent 100764 bytes  received 70 bytes  201668.00 bytes/sec
+total size is 101232  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Example.app/Frameworks/Context.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-9C93DAC9906440CE2F5E34D4.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Example.build/Script-9C93DAC9906440CE2F5E34D4.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+=== BUILD TARGET Pods-Context_Tests OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Context_Tests OF PROJECT Context WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5B33A41D5A966F7D4C7A9C75.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5B33A41D5A966F7D4C7A9C75.sh
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-676975DE090CE0D023CC6BB0.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-676975DE090CE0D023CC6BB0.sh
+mkdir -p /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks
+rsync -av --filter "- CVS/" --filter "- .svn/" --filter "- .git/" --filter "- .hg/" --filter "- Headers" --filter "- PrivateHeaders" --filter "- Modules" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/FBSnapshotTestCase/FBSnapshotTestCase.framework" "/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks"
+building file list ... done
+FBSnapshotTestCase.framework/
+FBSnapshotTestCase.framework/FBSnapshotTestCase
+FBSnapshotTestCase.framework/_CodeSignature/CodeResources
+
+sent 172482 bytes  received 70 bytes  345104.00 bytes/sec
+total size is 172963  speedup is 1.00
+Code Signing /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework with Identity -
+/usr/bin/codesign --force --sign -  --preserve-metadata=identifier,entitlements '/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework'
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Context_Tests.xctest/Frameworks/FBSnapshotTestCase.framework: replacing existing signature
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5826D41E2BED4FD52FF3ECEE.sh
+    cd /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example
+    /bin/sh -c /Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/DerivedData/Context/Build/Intermediates/CodeCoverage/Intermediates/Context.build/Debug-iphonesimulator/Context_Tests.build/Script-5826D41E2BED4FD52FF3ECEE.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+
+Test Suite 'All tests' started at 2017-06-12 01:21:50.328
+Test Suite 'FBSnapshotTestCase.framework' started at 2017-06-12 01:21:50.329
+Test Suite 'FBSnapshotTestCase.framework' passed at 2017-06-12 01:21:50.329.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'Context_Tests.xctest' started at 2017-06-12 01:21:50.330
+Test Suite 'Tests' started at 2017-06-12 01:21:50.330
+Test Case '-[Context_Tests.Tests testExample]' started.
+Test Case '-[Context_Tests.Tests testExample]' passed (0.003 seconds).
+Test Case '-[Context_Tests.Tests testPerformanceExample]' started.
+/Users/ronaldo/Documents/Workspace/ModularizedByFeatures/LocalPods/Context/Example/Tests/Tests.swift:26: Test Case '-[Context_Tests.Tests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 129.422%, values: [0.000004, 0.000001, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000001, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[Context_Tests.Tests testPerformanceExample]' passed (0.293 seconds).
+Test Suite 'Tests' passed at 2017-06-12 01:21:50.627.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.296 (0.297) seconds
+Test Suite 'Context_Tests.xctest' passed at 2017-06-12 01:21:50.629.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.296 (0.299) seconds
+Test Suite 'All tests' passed at 2017-06-12 01:21:50.629.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.296 (0.301) seconds
+** TEST SUCCEEDED **
+
