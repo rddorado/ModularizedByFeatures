@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HomeFeatureNewDesign_Example' do
+  pod 'HomeFeatureNewDesign', :path => '../'
+
+  target 'HomeFeatureNewDesign_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
