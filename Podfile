@@ -6,7 +6,8 @@ def swift_pods
     pod 'SnapKit'
     pod 'Context', :path => 'LocalPods/Context' 
     pod 'DogFeature', :path => 'LocalPods/DogFeature' 
-    pod 'CatFeature', :path => 'LocalPods/CatFeature' 
+    pod 'CatFeature', :path => 'LocalPods/CatFeature'
+    pod 'HomeFeature', :path => 'LocalPods/HomeFeature'
 end
 
 def testing_pods

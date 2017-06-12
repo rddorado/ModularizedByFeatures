@@ -15,9 +15,6 @@
 		D12FB2731ED2828200BCD96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12FB2711ED2828200BCD96B /* LaunchScreen.storyboard */; };
 		D12FB27E1ED2828200BCD96B /* ModularizedByFeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB27D1ED2828200BCD96B /* ModularizedByFeaturesTests.swift */; };
 		D12FB2891ED2828300BCD96B /* ModularizedByFeaturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2881ED2828300BCD96B /* ModularizedByFeaturesUITests.swift */; };
-		D12FB2D01ED84A5E00BCD96B /* HomeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */; };
-		D12FB2D11ED84A5E00BCD96B /* HomeFeatureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */; };
-		D12FB2D21ED84A5E00BCD96B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */; };
 		D12FB2D41ED84E0500BCD96B /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FB2D31ED84E0500BCD96B /* MainRouter.swift */; };
 		D14217341ED99BDF0008D6DE /* Context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14217331ED99BDF0008D6DE /* Context.framework */; };
 		D14217861ED9A1730008D6DE /* CatFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14217851ED9A1730008D6DE /* CatFeature.framework */; };
@@ -485,10 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12FB2D21ED84A5E00BCD96B /* HomeViewController.swift in Sources */,
 				D12FB2671ED2828200BCD96B /* AppDelegate.swift in Sources */,
-				D12FB2D11ED84A5E00BCD96B /* HomeFeatureRouter.swift in Sources */,
-				D12FB2D01ED84A5E00BCD96B /* HomeAdapter.swift in Sources */,
 				D12FB2D41ED84E0500BCD96B /* MainRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
