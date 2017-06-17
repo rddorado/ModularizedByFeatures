@@ -58,9 +58,6 @@
 		D12FB2841ED2828300BCD96B /* ModularizedByFeaturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularizedByFeaturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12FB2881ED2828300BCD96B /* ModularizedByFeaturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularizedByFeaturesUITests.swift; sourceTree = "<group>"; };
 		D12FB28A1ED2828300BCD96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdapter.swift; sourceTree = "<group>"; };
-		D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeatureRouter.swift; sourceTree = "<group>"; };
-		D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D12FB2D31ED84E0500BCD96B /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		D12FB3561ED957FE00BCD96B /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "Context/build/Debug-iphoneos/Context.framework"; sourceTree = "<group>"; };
 		D14217331ED99BDF0008D6DE /* Context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Context.framework; path = "DerivedData/ModularizedByFeatures/Build/Products/Debug-iphonesimulator/Context.framework"; sourceTree = "<group>"; };
@@ -185,19 +182,8 @@
 		D12FB2CC1ED8489D00BCD96B /* Home Feature */ = {
 			isa = PBXGroup;
 			children = (
-				D12FB2E31ED87B4000BCD96B /* Home */,
-				D12FB2CE1ED84A5E00BCD96B /* HomeFeatureRouter.swift */,
 			);
 			path = "Home Feature";
-			sourceTree = "<group>";
-		};
-		D12FB2E31ED87B4000BCD96B /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				D12FB2CD1ED84A5E00BCD96B /* HomeAdapter.swift */,
-				D12FB2CF1ED84A5E00BCD96B /* HomeViewController.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

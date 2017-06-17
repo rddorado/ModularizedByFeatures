@@ -25,4 +25,8 @@ open class ContextFactory: ContextProtocol {
     public func userInfoService() -> UserInfoServiceProtocol {
         return UserInfoService()
     }
+    
+    public func objcService() -> ObjcServiceProtocol{
+        return ObjcService();
+    }
 }
