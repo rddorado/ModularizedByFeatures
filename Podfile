@@ -3,7 +3,7 @@ platform :ios, :deployment_target => "9.0"
 
 def swift_pods
     use_frameworks!
-    pod 'SnapKit'
+    pod 'SnapKit', '3.2.0'
     pod 'Context', :path => 'LocalPods/Context' 
     pod 'DogFeature', :path => 'LocalPods/DogFeature' 
     pod 'CatFeature', :path => 'LocalPods/CatFeature'
